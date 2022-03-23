@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(8, 68, 65);
+  color:white;
+}
+.Car{
+  background-color: rgb(238, 204, 11);
+  width:15vw;
+  min-height: 3rem;
+  padding: 1rem;
+  margin:1rem;
+}
+
+.Container{
+background-color: rgb(8, 68, 65);
+display:flex;
+flex-wrap: wrap;
+padding:3rem 0;
+}
+
+form{
+  background-color: rgb(238, 204, 11);
+  min-height: 10vh;
+  color:black;
+  padding: 2rem;
+}
+
+form label, input{
+  margin:0.5rem;
+}
+form button{
+  margin:1rem;
+}
+.Center{
+  align-items: center;
+  vertical-align: center;
+  align-self: center;
+  text-align:center;
+}
